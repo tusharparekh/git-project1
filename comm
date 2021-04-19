@@ -1,0 +1,136 @@
+    1  git
+    2  mkdir git-project1
+    3  cd git-project1
+    4  git config
+    5  git config --global user.name="Tushar Parekh"
+    6  git config --global user.name "Tushar Parekh"
+    7  git config --global user.email "tusharparekh1@gmail.com"
+    8  git init
+    9  git status
+   10  git add .
+   11  git status
+   12  git commit
+   13  git status
+   14  ls
+   15  ls
+   16  ls
+   17  pwd
+   18  ls
+   19  ls
+   20  clear
+   21  git status
+   22  git add .
+   23  git status
+   24  git commit -m "First File to commit"
+   25  git status
+   26  git remote add origin https://github.com/tusharparekh/git-project1.git
+   27  git push origin master
+   28  git checkout -b Integration
+   29  git checkout -b Hotfix
+   30  git status
+   31  git branch -d Hotfix
+   32  git checkout Integration
+   33  git branch -d Hotfix
+   34  git checkout master
+   35  git checkout -b Hotfix
+   36  git checkout Integration
+   37  git checkout master
+   38  git checkout Integration
+   39  git checkout -b Feature1
+   40  gitcheckout Integration
+   41  git checkout Integration
+   42  git checkout -b Feature2
+   43  ls
+   44  git checkout feature1
+   45  git checkout Feature1
+   46  git add .
+   47  git commit -b "Added first file to Feature1 branch"
+   48  git status
+   49  git add .
+   50  git status
+   51  ls
+   52  git status
+   53  git add .
+   54  git commit -m "feature1 1st commit"
+   55  git push origin feature1
+   56  git push origin Feature1
+   57  git add .
+   58  git commit -m "Second commit on Feature1 branch"
+   59  git push origin Feature1
+   60  git checkout Integration
+   61  git add .
+   62  git commit -b "File changed commitin Integration "
+   63  git commit -m "File changed commitin Integration "
+   64  git status
+   65  git push origin Integration
+   66  git status
+   67  git
+   68  git help commit
+   69  git history
+   70  git log
+   71  git checkout Feature1
+   72  git rebase f5b03151887582a95585dc33d460e47414e396a7
+   73  git add .
+   74  git commit -m "After rebase"
+   75  git push origin Feature1
+   76  git pull
+   77  git pull remote Feature1
+   78  git remote -v
+   79  git pull origin Feature1
+   80  git push origin Feature1
+   81  git checkout Integration
+   82  ls
+   83  git add .
+   84  git commit -m "New Changes before Merge"
+   85  git checkout Feature1
+   86  git checkout Integration
+   87  git merge Feature1
+   88  git add .
+   89  git commit -m "MErge changes"
+   90  git push origin Integration
+   91  git merge Feature1
+   92  git checkout Feature2
+   93  git add .
+   94  git commit -m "Feature2 merge commit change"
+   95  git push origin Feature2
+   96  git checkout Integration
+   97  git merge Feature2
+   98  git merge Feature2
+   99  git ad .
+  100  git add .
+  101  git commit -m 'changes'
+  102  git push origin Integration
+  103  git merge Feature2
+  104  git checkout Hotfix
+  105  git checkout Integtration
+  106  git checkout Integration
+  107  git checkout Integration
+  108  git commit -m "Change"
+  109  git add .
+  110  git commit -m "Change"
+  111  git push origin Hotfix
+  112  git checkout Integration
+  113  git merge Hotfix
+  114  git merge Hotfix
+  115  git add .
+  116  git commit -m "Merge Integration to Hotfix"
+  117  git push origin Hotfix
+  118  git merge master
+  119  git branch -d Feature1
+  120  git checkout Hotfix
+  121  git add .
+  122  git commit -m "Merge to Integration and Production"
+  123  git push origin Hotfix
+  124  git checkout Integration
+  125  git merge Hotfix
+  126  git add .
+  127  git commit -m "Merge to Integration Hotfix"
+  128  git push origin Integration
+  129  git checkout master
+  130  git merge Hotfix
+  131  git log > gitloggiler
+  132  vi gitloggiler
+  133  git checkout Hotfix
+  134  git log > Hotfix
+  135  vi Hotfix
+  136  history > comm
