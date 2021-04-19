@@ -23,4 +23,8 @@ This is change 2 in Feature 1
 
 Changes before MErge of Feature2
 
+<<<<<<< HEAD
 
+=======
+Change for merging to Production/master and Integration
+>>>>>>> Hotfix
